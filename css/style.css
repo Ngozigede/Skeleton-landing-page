@@ -1,0 +1,73 @@
+.form{
+    background-color:brown;
+    padding: 2rem ;
+   
+    }
+
+    .align{
+       display: flex; 
+       justify-content: space-between;
+       align-items: center;
+       padding: 2rem;
+    }
+    .login{
+        background-color: rgb(247, 247, 152);
+        width: 400px;
+        margin: 0px;
+        float: left;
+    }
+    .btn{
+        background-color: yellowgreen;
+        width: 400px;
+        margin: 0px;
+        float: left;
+    }
+    h3,p{
+        color: white;
+    }
+    .prefix{
+        margin: 0px !important;
+        padding: 0px;
+    }
+    .main{
+        margin: 5rem auto;
+        height: 400px;
+        width: 90%;
+        padding: 2rem;
+        background-color: aquamarine;
+        display: flex;
+        align-items: center;
+    }
+    .left-side{
+    background-color: yellow; 
+    height: 300px; 
+    width: 400px; 
+    padding: 4rem;
+    text-align: center;
+    }
+    
+    .right-side{
+        background-color: rgb(143, 143, 74); 
+        width: 400px;
+         height: 300px; 
+         padding: 4rem;
+         text-align: center;
+    }
+    .btn-colour{
+        background-color: brown !important;
+        color: white;
+        box-shadow: 5px 5px 5px rgb(146, 143, 143);
+        border-radius: 5px;
+
+    }
+    .btn-colour2{
+        background-color: brown !important;
+        color: white;
+        box-shadow: 5px 5px 5px rgb(146, 143, 143);
+        border-radius: 5px;
+    }
+    input[ type=text],input[ type=password]{
+        background-color: gray;
+        border-radius: 10px;
+        box-shadow: 10px;
+    }
